@@ -1,0 +1,9 @@
+apiVersion: v2
+name: argo-cd         # Named used to call up the values to use this chart
+description: Argocd char installation
+type: application
+version: 1.0.0        # Version defined for this chart on a local build definition
+dependencies:
+  - name: argo-cd
+    version: 3.17.6   # Helm char version for the specified repo
+    repository: https://argoproj.github.io/argo-helm
