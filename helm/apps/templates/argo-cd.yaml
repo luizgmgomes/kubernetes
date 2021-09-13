@@ -11,7 +11,7 @@ spec:
     namespace: argocd
   project: default
   source:
-    path: charts/argo-cd
+    path: helm/charts/argo-cd
     repoURL: https://github.com/luizgmgomes/kubernetes.git
     targetRevision: HEAD
   syncPolicy:
