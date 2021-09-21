@@ -1,0 +1,12 @@
+- Requirements
+    - kubectl
+    - helm
+    - Repository
+
+- Steps
+    - clone your repo, create a folder structure and the files inside
+        - $ mkdir -p charts/argo-cd/
+        - $ touch Chart.yaml values.yaml
+    - 
+
+        
